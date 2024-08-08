@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="website icon" type="png" href="img/formulario-icon.png">
+</head>
+
+<body>
+    
+    <header>
+       <h1>Faça sua inscrição !</h1>
+    </header>
+
+    <main>
+        <form id="cadastro">
+            <label for="nomesobrenome"> Nome e Sobrenome </label>
+            <input type="text" id="nomesobrenome" class="input-padrao" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com">
+
+            <label for="telefone"> Telefone </label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)x xxxx-xxxx">     
+
+            <fieldset>
+                <legend> Como prefere nosso contato? </legend>
+                <label for="radio-email">
+                    <input type="checkbox" name="contato" value="email" id="radio-email"> E-mail
+                </label>
+
+                <label for="radio-telefone">
+                    <input type="checkbox" name="telefone" value="telefone" id="radio-telefone"> telefone
+                </label>
+
+                <label for="radio-whatsapp">
+                    <input type="checkbox" name="whatsapp" value="whatsapp" id="radio-whatsapp">whatsapp
+                </label>
+
+            </fieldset>
+
+    
+            <fieldset>
+                <legend>Qual horário vocẽ prefere trabalhar? </legend>
+                <select>
+                    <option value=""> Manha</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+               
+                <label for="telefone"> digite sua data de nascimento </label>
+                <input type="date" id="dt" class="input-padrao" required placeholder="" onchange="VerificarIdade()">
+
+            </fieldset>
+
+            <div id="responsavel" style="display: none;">
+                <label for="nomeResp">Nome do Responsável:</label>
+                <input type="text" id="nomeResp" class="input-padrao" required name="nomeResp">
+
+                <label for="CPFResp">CPF do Responsável:</label>
+                <input type="text" id="CPFResp" class="input-padrao" required name="CPFResp">
+            </div>
+
+            <input type="submit" value="Enviar formulário" required class="enviar" >
+        </form>
+
+        <div>
+            <a href="index.html">
+                <button class="enviar">Voltar</button>
+            </a>
+        </div>
+
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

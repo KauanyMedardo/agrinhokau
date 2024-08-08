@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 0;
+    color: #333;
+
+}
+
+.conteiner--principal {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    background-color: #fff;
+    border: 1px solid #8d8a8a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 2em;
+}
+
+h2 {
+    margin-top: 3em;
+    color: #0c2077; 
+    border-bottom: 2px solid #3498db; 
+    padding-bottom: 10px; 
+}
+
+p {
+    color: #000000; 
+    line-height: 1.6; 
+    margin: 10px 0;}
+
+button {
+    padding: 10px 15px; 
+    background-color: #3498db; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #2980b9; 
+}
+
+a {
+    text-decoration: none; 
+}
+
+.conteiner--principal  h2{
+    font-size: xx-large;
+}
+
+.conteiner--principal p{
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .conteiner--principal {
+        padding: 10px;
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: x-large;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: large;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 8px 12px;
+    }
+}

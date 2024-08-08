@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 900px;
+    margin-left: 10%;
+    line-height: 1.5;
+
+}
+
+/* cabeçalho */
+nav {
+    background-color: #85B8CB;
+    text-align: center;
+    padding: 10px 0;
+    height: 130px;
+}
+
+nav img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+nav h1 {
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+p {
+    text-align: left;
+}
+
+button {
+    color: #FFF;
+    border: 2px solid rgb(0, 60, 255);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console",monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(0, 30, 130);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    color: black;
+  }
+
+  button:hover {
+    box-shadow: inset 400px 0 0 0 rgb(50, 100, 255);
+  }
+
+footer {
+    color: rgb(11, 5, 48);
+    height: 5em;
+    background-color: rgb(204, 212, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    line-height: 1.0;
+ text-align: center;
+}
+
+.horta {
+    flex: 1;
+    padding-right: 10px;
+    align-self: center;
+    padding-left: 1em;
+}
+
+#logoprogramacao {
+    position: absolute;
+    left: 20px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+#logoreni {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#titulo--principal {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.container article {
+    flex: 1 1 45%;
+    margin: 10px;
+}
+
+.container h2,
+.objetivo h2 {
+    font-size: 28px;
+    color: #14268f;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+/* secao objetivo */
+.objetivo {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 19%;
+    margin-right: 19%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.objetivo p {
+    color: #0b0b0b;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    
+}
+
+.container.single {
+    justify-content: space-between;
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+}
+
+.espacamento {
+    margin-top: 20px;
+}
+
+.content {
+    flex: 1;
+}
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 100%;/*xxxxxxxxxxxxxxxx*/
+    line-height: 1.5;
+}
+
+/* cabeçalho */
+nav {
+    background-color: #85B8CB;
+    text-align: center;
+    padding: 10px 0;
+    height: 130px;
+}
+
+nav img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+nav h1 {
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+p {
+    text-align: left;
+}
+
+button {
+    color: #FFF;
+    border: 2px solid rgb(0, 60, 255);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console",monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(0, 30, 130);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    color: black;
+  }
+
+  button:hover {
+    box-shadow: inset 400px 0 0 0 rgb(50, 100, 255);
+  }
+footer {
+    color: rgb(11, 5, 48);
+    height: 5em;
+    background-color: rgb(204, 212, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    line-height: 1.0;
+ text-align: center;
+}
+
+.horta {
+    flex: 1;
+    padding-right: 10px;
+    align-self: center;
+    padding-left: 1em;
+}
+
+#logoprogramacao {
+    position: absolute;
+    left: 20px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+#logoreni {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+#titulo--principal {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.container article {
+    flex: 1 1 45%;
+    margin: 10px;
+}
+
+.container h2,
+.objetivo h2 {
+    font-size: 28px;
+    color: #14268f;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+/* secao objetivo */
+.objetivo {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 19%;
+    margin-right: 19%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.objetivo p {
+    color: #0b0b0b;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+}
+
+.container.single {
+    justify-content: space-between;
+    max-width: 800px;
+    padding: 20px;
+    text-align: left;
+}
+
+.espacamento {
+    margin-top: 20px;
+}
+
+.content {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+    height: auto;
+    width: 200px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.horta h3 {
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.texto100 {
+    display: inline;
+}
+
+.containerhorta {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.coluna {
+    flex: 1 1 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem img {
+    height: auto;
+    width: 250px;
+}
+
+.coluna img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.rodape{
+    padding-top: 20px;
+}
+.image {
+    flex: 1;
+    text-align: right;
+    height: auto;
+    width: 200px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.horta h3 {
+    font-size: 22px;
+    font-weight: 700px;
+}
+
+.texto100 {
+    display: inline;
+}
+
+.containerhorta {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.coluna {
+    flex: 1 1 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;;
+    height: auto;
+    width: 200px;
+    flex-direction: column;
+}
+
+.imagem img {
+    height: auto;
+    width: 250px;
+}
+
+.coluna img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.padding {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.tamanho {
+    width: 1200px;
+    display: block;
+    margin: auto ;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+
+.rodape{
+    padding-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    #logoreni {
+        height: 40px;
+        top: 5px;
+        right: 5px;
+    }
+    nav h1 {
+        font-size: 20px;
+        padding-top: 55px;
+        padding-bottom: 5px ;
+    }
+    
+
+    #logoprogramacao {
+        height: 60px;
+        margin-top: 0;
+    }
+
+    #logoreni {
+        height: 40px;
+        top: 5px;
+    }
+
+    .container,
+    .objetivo {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .container {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .imagem img,
+    .coluna img {
+        width: 100%;
+        height: auto;
+    }
+
+    .tamanho {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #logoreni {
+        height: 40px;
+        top: 5px;
+        right: 5px;
+    }
+    nav h1 {
+        font-size: 20px;
+        padding-top: 55px;
+        padding-bottom: 5px ;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .container h2,
+    .objetivo h2 {
+        font-size: 24px;
+    }
+
+    .container p,
+    .objetivo p {
+        font-size: 14px;
+    }
+}
